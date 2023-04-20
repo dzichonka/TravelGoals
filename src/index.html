@@ -11,13 +11,58 @@
 </head>
 
 <body>
-    <header>
-        <div class="logo"><a href="#">Travel Goals</a></div>
+    <header class="header">
+        <div class="container">
+            <div class="header__wrapper">
+                <div class="logo"><a href="#">Travel Goals</a></div>
+                <nav class="header__menu">
+                    <a href="#">Destinations</a>
+                    <a href="">About</a>
+                </nav>
+            </div>
 
-        <nav></nav>
+        </div>
     </header>
-    <main></main>
-    <footer></footer>
+
+    <main class="main">
+
+        <section class="promo">
+            <div class="container">
+                <div class="promo__item">
+                    <h1 class="promo__title">Joe's travel page</h1>
+                    <p class="promo__descr">let's explore the world together</p>
+                    <div class="promo__btn">
+                        <a class="btn" href="#">Discover places</a>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="highlights">
+            <div class="container">
+                <h2 class="highlights__title">highlights</h2>
+                <div class="highlights__wrapper">
+                    <div class="highlights__item">
+                        <div class="highlights__item-photo"><img src="/img/highlights/miami.jpg" alt="miami"></div>
+                        <div class="highlights__item-descr">miami <span>USA</span></div>
+                    </div>
+                    <div class="highlights__item">
+                        <div class="highlights__item-photo"><img src="/img/highlights/munich.jpg" alt="munich"></div>
+                        <div class="highlights__item-descr">munich <span>Germany</span></div>
+                    </div>
+                    <div class="highlights__item">
+                        <div class="highlights__item-photo"><img src="/img/highlights/barcelona.jpg" alt="barcelona">
+                        </div>
+                        <div class="highlights__item-descr">barcelona <span>Spain</span></div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <footer class="footer"></footer>
 
     <script src="js/script.js"></script>
 </body>
